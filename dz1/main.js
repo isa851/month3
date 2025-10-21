@@ -31,9 +31,3 @@ const container = document.getElementById('cards');
     </div>
   `;
    }
-
-
-
-   
-
-   
