@@ -6,7 +6,7 @@ const menu = [
   { id: 5, title: "Омлет", category: "breakfast", price: 250 },
 ];
 // ----------------------------------------------------------------------------------------------- \\
-function getByCategory(category) {
+const getByCategory = (category) => {
   return menu.filter(item => item.category === category);
 }
 
