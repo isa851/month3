@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h2>Cart</h2>
+
+  <div>
+    <input type="text" id="name" placeholder="Название товара">
+    <input type="number" id="count" placeholder="Кол-во" min="1" value="1">
+    <input type="number" id="price" placeholder="Цена" min="0">
+    <button id="addBtn">Добавить товар</button>
+  </div>
+
+  <div id="cart"></div>
+
+  <div class="total">
+    <p>Общее количество: <span id="totalCount">0</span></p>
+    <p>Общая сумма: <span id="totalPrice">0</span> сом</p>
+  </div>
+
+  <button id="clearBtn">Очистить корзину</button>
+
+  
+
+
+
+  <script src="./main.js"></script>
+
+</body>
+</html>
